@@ -1,0 +1,41 @@
+body {
+
+  background-color: #dfd9f6;
+
+  font-family: Georgia, serif;
+
+  color: #333;
+
+  padding: 30px;
+
+}
+
+
+
+h1, h2 {
+
+  color: #66157b;
+
+}
+
+
+
+img {
+
+  border-radius: 8px;
+
+  margin: 20px 0;
+
+}
+
+
+
+div {
+
+  margin-top: 40px;
+
+  padding: 10px;
+
+  background-color: #f8eeda;
+
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <title>Riddle Generator</title>
+
+  <style>
+
+    body { font-family: sans-serif; background: #fafafa; text-align: center; padding: 50px; }
+
+    button { padding: 10px 20px; font-size: 16px; }
+
+    p { font-size: 18px; margin-top: 20px; }
+
+  </style>
+
+</head>
+
+<body>
+
+  <h1>Random Riddle Generator</h1>
+
+  <button onclick="generateRiddle()">Tell Me a Riddle</button>
+
+  <p id="riddle"></p>
+
+
+
+  <script>
+
+    const riddles = [
+
+      "What has to be broken before you can use it? An egg.",
+
+      "I'm tall when Im young, and Im short when Im old. What am I? A candle.",
+
+      "What month of the year has 28 days? All of them."
+
+    ];
+
+
+
+    function generateRiddle() {
+
+      const index = Math.floor(Math.random() * riddles.length);
+
+      document.getElementById("riddle").textContent = riddles[index];
+
+    }
+
+  </script>
+
+
+
+  <a href="scratch.html">Back to Scratch Page</a>
+
+</body>
+
+</html>
